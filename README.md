@@ -17,14 +17,23 @@ I used Bootstrap CSS framework, as it was one of the most popular ones and I had
 
 Criteria:
 Have proper naming convention.
+
 README contains required information.
+
 Gathered data through HTML forms (username, password, task, date, time).
+
 Users are able to add new tasks into MongoDB, but not edit or delete.
+
 Fetched multiple server requests with app.get and app.post in server.js
+
 Styles all pages solely using Bootstrap.
+
 Persistent data on local machine using MongoDB mongoose. User login information and all tasks associated with them is stored and saved.
+
 Used express js and mongodb middleware throughout in server.js and users.js files.
+
 Currently does not display data to users.
+
 Site accessible design achievement.
 
 
