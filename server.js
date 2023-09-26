@@ -70,7 +70,6 @@ app.post("/main", async (request, response) => {
 // Add tasks to database
 app.post("/maintask", async (request, response) => {
     const userN = getSessionUsername();
-    console.log(username)
     const info = {
         task: request.body.task,
         date: request.body.date,
@@ -78,7 +77,6 @@ app.post("/maintask", async (request, response) => {
     }
     // Make sure tasks are not empty
     if (info.task == "" || info.date == "" || info.time == "") {
-        users.userN.
         alert("Please fill in all required fields");
         response.render("main");
     }
