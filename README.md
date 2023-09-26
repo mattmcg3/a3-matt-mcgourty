@@ -15,7 +15,8 @@ I did not use any OAuth for my application, instead authenticating users by look
 
 I used Bootstrap CSS framework, as it was one of the most popular ones and I had some experience already using it. 
 
-Criteria:
+## Criteria:
+
 Have proper naming convention.
 
 README contains required information.
